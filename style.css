@@ -1787,26 +1787,28 @@ border-radius: 40px;
     color: inherit
 }
 
-.bck-box.bck-box-2 .bck-title:before {
+.bck-box.bck-box-2>.bck-title:before {
     position: absolute;
-    width: 49px;
-    height: 40px;
+    width: 250px;
+    height: 90px;
     background-size: contain;
     background-repeat: no-repeat;
-    top: -3px;
-    left: -47px;
+    top: 19px;
+    left: -25px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(images/icono_caja02.png);
     content: "";
+    z-index: 1000;
 }
 
 .bck-box.bck-box-2>.bck-content {
-    background-color: #E1E0E8;
-    border: 13px double #2E3C6A;
-    border-radius: 30px 30px 30px 30px;
-    padding: 8px 18px 8px 19px;
+background-color: #E1E0E8;
+    border: 13px double #003868;
+    border-radius: 20px;
+    padding: 27px 18px 8px 19px;
     width: auto;
+    box-shadow: 5px 6px 0px 0px #d3d2d2;
 }
 
 .bck-box.bck-box-2:after {
