@@ -1,4 +1,4 @@
-/*estilo amazingJourneydemo_>NOWYOU*/
+/*estilo amazingjourneydemo_>NOWYOU*/
 
 @charset "UTF-8";
 
@@ -257,7 +257,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover {
     padding-left: 10px
 }
 
-.amazingJourneydemo-navbar h3 {
+.amazingjourneydemo-navbar h3 {
     width: 75%;
     margin: auto auto 15px;
     font-size: 2rem;
@@ -314,7 +314,7 @@ body.is_app #actividad .class_slide {
     height: 1.8em
 }
 
-.amazingJourneydemo-navbar {
+.amazingjourneydemo-navbar {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -325,18 +325,18 @@ body.is_app #actividad .class_slide {
     background: #545759
 }
 
-body.is_app .amazingJourneydemo-navbar {
+body.is_app .amazingjourneydemo-navbar {
     -webkit-transition: top .5s linear;
     -o-transition: top .5s linear;
     -moz-transition: top .5s linear;
     transition: top .5s linear
 }
 
-body.is_app .amazingJourneydemo-navbar.ocultar {
+body.is_app .amazingjourneydemo-navbar.ocultar {
     top: -136px
 }
 
-.amazingJourneydemo-navbar .navbar-content {
+.amazingjourneydemo-navbar .navbar-content {
     width: 100%;
     height: 100%;
     padding: 0 20px;
@@ -365,7 +365,7 @@ body.is_app .amazingJourneydemo-navbar.ocultar {
 }
 
 /*logo*/
-.content_type_curso_amazingJourneydemo .libro-left ul li .title:before {
+.content_type_curso_amazingjourneydemo .libro-left ul li .title:before {
     content: "";
     background-size: contain;
     top: 12px;
@@ -394,11 +394,11 @@ body.is_app .amazingJourneydemo-navbar.ocultar {
     background-position: center center;
 }
 
-.content_type_curso_amazingJourneydemo.content_type_clase_amazingJourneydemo .libro-left ul li .title:before {
+.content_type_curso_amazingjourneydemo.content_type_clase_amazingjourneydemo .libro-left ul li .title:before {
     opacity: 0;
 }
 
-.amazingJourneydemo-navbar .copyright {
+.amazingjourneydemo-navbar .copyright {
 display: none;
 }
 
@@ -4223,7 +4223,7 @@ td,th {
 
 }
 
-.tmpux.content_type_clase_amazingJourneydemo .amazingJourneydemo-navbar.modo_revision {
+.tmpux.content_type_clase_amazingjourneydemo .amazingjourneydemo-navbar.modo_revision {
     top: 0;
     display: block!important
 }
