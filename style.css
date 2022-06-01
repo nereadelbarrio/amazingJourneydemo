@@ -390,7 +390,7 @@ body.is_app .amazingJourneydemo-navbar.ocultar {
     content: "";
     background-size: contain;
     top: 12px;
-    background-image: url(images/highAchievers_logo.png) !important;
+    background-image: url(images/amazingJourney_logo.png) !important;
     position: fixed;
     width: 100px;
     height: 23px;
@@ -407,7 +407,7 @@ body.is_app .amazingJourneydemo-navbar.ocultar {
     left: 0;
     width: 98px;
     height: 44px;
-    background: url(images/highAchievers_logo.png) 0 0 no-repeat;
+    background: url(images/amazingJourney_logo.png) 0 0 no-repeat;
     -webkit-background-size: contain;
        -moz-background-size: contain;
          -o-background-size: contain;
