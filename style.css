@@ -1815,7 +1815,7 @@ background-color: #E1E0E8;
 display: none;
 }
 
-
+/**/
 .bck-box.bck-box-3 {
     margin-top: 15px;
     border: none;
@@ -1823,28 +1823,33 @@ display: none;
 }
 
 .bck-box.bck-box-3>.bck-title {
-    color: inherit
+    color: #fff;
+    background-color: #F6874A;
+    border-radius: 10px 10px 0 0;
+        font-size: inherit;
 }
 
 .bck-box.bck-box-3>.bck-content {
-    background-color: #ffffff;
-    border: 2px solid #ec6f59;
-    border-radius: 30px 30px 30px 30px;
-    padding: 8px 18px 8px 19px;
+background-color: #fff;
+    border: 3px solid #F6874A;
+    border-radius: 0 0 20px 20px;
+    padding: 15px 18px 8px 19px;
     width: auto;
 }
 
-.bck-box.bck-box-3:after {
-    background-image: url(images/icono_caja_02derecha.png);
-    content: " ";
-    position: absolute;
-    right: 30%;
-    margin-top: -5px;
-    z-index: 100;
-    padding: 10px;
+.bck-box.bck-box-3:before {
+position: absolute;
+    width: 121px;
+    height: 98px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -28px;
+    left: -24px;
     background-repeat: no-repeat;
     background-size: contain;
-    display: inline-block;
+    background-image: url(images/icono_caja01.png);
+    content: "";
+    z-index: 1000;
 }
 
 .bck-box.bck-box-4 {
