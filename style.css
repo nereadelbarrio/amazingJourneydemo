@@ -1572,25 +1572,6 @@ padding: 7px 9px;
     left: auto;
 }
 
-#actividad .content .cke_contents .bck-ol-1 li:after, 
-#actividad .content .texto_curso .bck-ol-1 li:after, 
-#actividad .content .workspace ul li .bck-ol-1 li:after, 
-#actividad .popover-content .bck-ol-1 li:after {
-    /* content: ""; */
-    /* background-image: url(assets/images/titulo_recursos_comprension.png); */
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    top: -22px;
-    left: -15px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(images/icono_corazon.png);
-    content: "";
-}
-
 #actividad .content .cke_contents .bck-ol-2,
 #actividad .content .texto_curso .bck-ol-2,
 #actividad .content .workspace ul li .bck-ol-2,
@@ -1654,7 +1635,7 @@ counter-increment: bck-li-counter;
     margin-left: -15px;
     margin-top: 10px;
     font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
+    font-family: 'Proxima Nova Rg';
     line-height: 1.8em!important;
 }
 
@@ -1662,21 +1643,39 @@ counter-increment: bck-li-counter;
 #actividad .content .texto_curso ol.bck-ol-3 li:before, 
 #actividad .content .workspace ul li ol.bck-ol-3 li:before, 
 #actividad .popover-content ol.bck-ol-3 li:before {
-    color: #208FCF;
-    content: counter(bck-li-counter);
+content: counter(bck-li-counter);
     width: 32px;
     height: 27px;
     position: absolute;
+    color: #fff;
     background: none;
     margin-left: -40px;
     margin-right: 0;
     text-align: right;
-    font-family: 'ZineSlabDisOT';
-    font-size: 2.3rem;
+    font-family: 'Proxima Nova Rg';
+    font-size: 19px;
     font-weight: 600;
     line-height: normal;
-    top: 4px;
-    left: auto;
+    top: 6px;
+    left: -11px;
+    z-index: 1000;
+}
+
+#actividad .content .cke_contents .bck-ol-3 li:after, 
+#actividad .content .texto_curso .bck-ol-3 li:after, 
+#actividad .content .workspace ul li .bck-ol-3 li:after, 
+#actividad .popover-content .bck-ol-3 li:after {
+    position: absolute;
+    width: 49px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -3px;
+    left: -47px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/icono_corazon.png);
+    content: "";
 }
 
 #actividad .content .cke_contents .bck-ol-4,
