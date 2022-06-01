@@ -1823,17 +1823,19 @@ display: none;
 }
 
 .bck-box.bck-box-3>.bck-title {
-    color: #fff;
+color: #fff;
     background-color: #F6874A;
     border-radius: 10px 10px 0 0;
-        font-size: inherit;
+    font-size: inherit;
+    padding-left: 87px;
+    padding-top: 4px;
 }
 
 .bck-box.bck-box-3>.bck-content {
 background-color: #fff;
     border: 3px solid #F6874A;
     border-radius: 0 0 20px 20px;
-    padding: 15px 18px 8px 19px;
+    padding: 25px 18px 8px 19px;
     width: auto;
 }
 
