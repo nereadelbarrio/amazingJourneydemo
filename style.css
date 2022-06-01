@@ -1572,6 +1572,25 @@ padding: 7px 9px;
     left: auto;
 }
 
+#actividad .content .cke_contents .bck-ol-1 li:after, 
+#actividad .content .texto_curso .bck-ol-1 li:after, 
+#actividad .content .workspace ul li .bck-ol-1 li:after, 
+#actividad .popover-content .bck-ol-1 li:after {
+    /* content: ""; */
+    /* background-image: url(assets/images/titulo_recursos_comprension.png); */
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -22px;
+    left: -15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/icono_corazon.png);
+    content: "";
+}
+
 #actividad .content .cke_contents .bck-ol-2,
 #actividad .content .texto_curso .bck-ol-2,
 #actividad .content .workspace ul li .bck-ol-2,
