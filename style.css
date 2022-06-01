@@ -1644,8 +1644,6 @@ counter-increment: bck-li-counter;
 #actividad .content .workspace ul li ol.bck-ol-3 li:before, 
 #actividad .popover-content ol.bck-ol-3 li:before {
 content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
     position: absolute;
     color: #fff;
     background: none;
@@ -1657,7 +1655,7 @@ content: counter(bck-li-counter);
     font-weight: 600;
     line-height: normal;
     top: 6px;
-    left: -11px;
+    left: 0px;
     z-index: 1000;
 }
 
