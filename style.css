@@ -1715,27 +1715,93 @@ position: absolute;
 
 .item-container .icon-hablar02:before {
     background-image: url(images/icono_bocadillo02.png);
-    margin-right: 10px
+    margin-right: 10px;
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: 50%;
+    display: inline-block;
+    vertical-align: sub;
 }
 
 .item-container .icon-bus:before {
     background-image: url(images/icono_bus.png);
+    height: 47px;
+    width: 51px;
+    margin-right: 5px;
+    margin-top: -17px;
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: 50%;
+    display: inline-block;
+    vertical-align: sub;
 }
 
 .item-container .icon-corazon:before {
     background-image: url(images/icono_corazon.png);
+    height: 34px;
+    width: 36px;
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: 50%;
+    display: inline-block;
+    vertical-align: sub;
 }
 
 .item-container .icon-libro:before {
     background-image: url(images/icono_libro.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: 50%;
+    display: inline-block;
+    vertical-align: sub;
+    height: 34px;
+    width: 34px;
 }
 
 .item-container .icon-tambor:before {
     background-image: url(images/icono_tambor.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: 50%;
+    display: inline-block;
+    vertical-align: sub;
+    height: 34px;
+    width: 48px;
 }
 
 .item-container .icon-video:before {
     background-image: url(images/icono_video.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: 50%;
+    display: inline-block;
+    vertical-align: sub;
+        height: 44px;
+    width: 38px;
 }
 
 
