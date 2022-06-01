@@ -1724,365 +1724,8 @@ content: counter(bck-li-counter);
     left: -6px;
 }
 
-#actividad .content .cke_contents .bck-ol-5,
-#actividad .content .texto_curso .bck-ol-5,
-#actividad .content .workspace ul li .bck-ol-5,
-#actividad .popover-content .bck-ol-5 {
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
 
-#actividad .content .cke_contents .bck-ol-5 li,
-#actividad .content .texto_curso .bck-ol-5 li,
-#actividad .content .workspace ul li .bck-ol-5 li,
-#actividad .popover-content .bck-ol-5 li {
-counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 600;
-    margin-left: -15px;
-    margin-top: 10px;
-    font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
-    line-height: 1.8em!important;
-}
-
-#actividad .content .cke_contents ol.bck-ol-5 li:before, 
-#actividad .content .texto_curso ol.bck-ol-5 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-5 li:before, 
-#actividad .popover-content ol.bck-ol-5 li:before {
-        color: #E79F25;
-    content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
-    position: absolute;
-    background: none;
-    margin-left: -40px;
-    margin-right: 0;
-    text-align: right;
-    font-family: 'ZineSlabDisOT';
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: normal;
-    top: 4px;
-    left: auto;
-}
-
-#actividad .content .cke_contents .bck-ol-6,
-#actividad .content .texto_curso .bck-ol-6,
-#actividad .content .workspace ul li .bck-ol-6,
-#actividad .popover-content .bck-ol-6 {
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-6 li,
-#actividad .content .texto_curso .bck-ol-6 li,
-#actividad .content .workspace ul li .bck-ol-6 li,
-#actividad .popover-content .bck-ol-6 li {
-counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 600;
-    margin-left: -15px;
-    margin-top: 10px;
-    font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
-    line-height: 1.8em!important;
-}
-
-#actividad .content .cke_contents ol.bck-ol-6 li:before, 
-#actividad .content .texto_curso ol.bck-ol-6 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-6 li:before, 
-#actividad .popover-content ol.bck-ol-6 li:before {
-        color: #006294;
-    content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
-    position: absolute;
-    background: none;
-    margin-left: -40px;
-    margin-right: 0;
-    text-align: right;
-    font-family: 'ZineSlabDisOT';
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: normal;
-    top: 4px;
-    left: auto;
-}
-
-#actividad .content .cke_contents .bck-ol-7,
-#actividad .content .texto_curso .bck-ol-7,
-#actividad .content .workspace ul li .bck-ol-7,
-#actividad .popover-content .bck-ol-7 {
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-7 li,
-#actividad .content .texto_curso .bck-ol-7 li,
-#actividad .content .workspace ul li .bck-ol-7 li,
-#actividad .popover-content .bck-ol-7 li {
-counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 600;
-    margin-left: -15px;
-    margin-top: 10px;
-    font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
-    line-height: 1.8em!important;
-}
-
-#actividad .content .cke_contents ol.bck-ol-7 li:before, 
-#actividad .content .texto_curso ol.bck-ol-7 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-7 li:before, 
-#actividad .popover-content ol.bck-ol-7 li:before {
-        color: #B51F7E;
-            content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
-    position: absolute;
-    background: none;
-    margin-left: -40px;
-    margin-right: 0;
-    text-align: right;
-    font-family: 'ZineSlabDisOT';
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: normal;
-    top: 4px;
-    left: auto;
-}
-
-#actividad .content .cke_contents .bck-ol-8,
-#actividad .content .texto_curso .bck-ol-8,
-#actividad .content .workspace ul li .bck-ol-8,
-#actividad .popover-content .bck-ol-8 {
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-8 li,
-#actividad .content .texto_curso .bck-ol-8 li,
-#actividad .content .workspace ul li .bck-ol-8 li,
-#actividad .popover-content .bck-ol-8 li {
-counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 600;
-    margin-left: -15px;
-    margin-top: 10px;
-    font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
-    line-height: 1.8em!important;
-}
-
-#actividad .content .cke_contents ol.bck-ol-8 li:before, 
-#actividad .content .texto_curso ol.bck-ol-8 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-8 li:before, 
-#actividad .popover-content ol.bck-ol-8 li:before {
-        color: #006F41;
-    content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
-    position: absolute;
-    background: none;
-    margin-left: -40px;
-    margin-right: 0;
-    text-align: right;
-    font-family: 'ZineSlabDisOT';
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: normal;
-    top: 4px;
-    left: auto;
-}
-
-#actividad .content .cke_contents .bck-ol-9,
-#actividad .content .texto_curso .bck-ol-9,
-#actividad .content .workspace ul li .bck-ol-9,
-#actividad .popover-content .bck-ol-9{
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-9 li,
-#actividad .content .texto_curso .bck-ol-9 li,
-#actividad .content .workspace ul li .bck-ol-9 li,
-#actividad .popover-content .bck-ol-9 li {
-counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 600;
-    margin-left: -15px;
-    margin-top: 10px;
-    font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
-    line-height: 1.8em!important;
-}
-
-#actividad .content .cke_contents ol.bck-ol-9 li:before, 
-#actividad .content .texto_curso ol.bck-ol-9 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-9 li:before, 
-#actividad .popover-content ol.bck-ol-9 li:before {
-        color: #E0C002;
-    content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
-    position: absolute;
-    background: none;
-    margin-left: -40px;
-    margin-right: 0;
-    text-align: right;
-    font-family: 'ZineSlabDisOT';
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: normal;
-    top: 4px;
-    left: auto;
-}
-
-#actividad .content .cke_contents .bck-ol-10,
-#actividad .content .texto_curso .bck-ol-10,
-#actividad .content .workspace ul li .bck-ol-10,
-#actividad .popover-content .bck-ol-10{
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-10 li,
-#actividad .content .texto_curso .bck-ol-10 li,
-#actividad .content .workspace ul li .bck-ol-10 li,
-#actividad .popover-content .bck-ol-10 li {
-counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 600;
-    margin-left: -15px;
-    margin-top: 10px;
-    font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
-    line-height: 1.8em!important;
-}
-
-#actividad .content .cke_contents ol.bck-ol-10 li:before, 
-#actividad .content .texto_curso ol.bck-ol-10 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-10 li:before, 
-#actividad .popover-content ol.bck-ol-10 li:before {
-        color: #A10436;
-    content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
-    position: absolute;
-    background: none;
-    margin-left: -40px;
-    margin-right: 0;
-    text-align: right;
-    font-family: 'ZineSlabDisOT';
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: normal;
-    top: 4px;
-    left: auto;
-}
-
-#actividad .content .cke_contents .bck-ol-11,
-#actividad .content .texto_curso .bck-ol-11,
-#actividad .content .workspace ul li .bck-ol-11,
-#actividad .popover-content .bck-ol-11{
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-11 li,
-#actividad .content .texto_curso .bck-ol-11 li,
-#actividad .content .workspace ul li .bck-ol-11 li,
-#actividad .popover-content .bck-ol-11 li {
-counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 600;
-    margin-left: -15px;
-    margin-top: 10px;
-    font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
-    line-height: 1.8em!important;
-}
-
-#actividad .content .cke_contents ol.bck-ol-11 li:before, 
-#actividad .content .texto_curso ol.bck-ol-11 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-11 li:before, 
-#actividad .popover-content ol.bck-ol-11 li:before {
-        color: #738A96;
-    content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
-    position: absolute;
-    background: none;
-    margin-left: -40px;
-    margin-right: 0;
-    text-align: right;
-    font-family: 'ZineSlabDisOT';
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: normal;
-    top: 4px;
-    left: auto;
-}
-
-#actividad .content .cke_contents .bck-ol-12,
-#actividad .content .texto_curso .bck-ol-12,
-#actividad .content .workspace ul li .bck-ol-12,
-#actividad .popover-content .bck-ol-12{
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-12 li,
-#actividad .content .texto_curso .bck-ol-12 li,
-#actividad .content .workspace ul li .bck-ol-12 li,
-#actividad .popover-content .bck-ol-12 li {
-counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 600;
-    margin-left: -15px;
-    margin-top: 10px;
-    font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
-    line-height: 1.8em!important;
-}
-
-#actividad .content .cke_contents ol.bck-ol-12 li:before, 
-#actividad .content .texto_curso ol.bck-ol-12 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-12 li:before, 
-#actividad .popover-content ol.bck-ol-12 li:before {
-        color: #00B6ED;
-            content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
-    position: absolute;
-    background: none;
-    margin-left: -40px;
-    margin-right: 0;
-    text-align: right;
-    font-family: 'ZineSlabDisOT';
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: normal;
-    top: 4px;
-    left: auto;
-}
+/**/
 
 .bck-box {
     max-width: none;
@@ -2124,6 +1767,10 @@ border-radius: 40px;
     padding: 0;
 }
 
+.bck-box.bck-box-1 .bck-content {
+    padding-left: 0;
+}
+
 .bck-box.bck-box-1>.bck-title {
     color: inherit;
     border: none;
@@ -2140,25 +1787,30 @@ border-radius: 40px;
     color: inherit
 }
 
+.bck-box.bck-box-2 .bck-title:before {
+    position: absolute;
+    width: 49px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -3px;
+    left: -47px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/icono_caja02.png);
+    content: "";
+}
+
 .bck-box.bck-box-2>.bck-content {
-    background-color: #ffffff;
-    border: 2px solid #ec6f59;
+    background-color: #E1E0E8;
+    border: 13px double #2E3C6A;
     border-radius: 30px 30px 30px 30px;
     padding: 8px 18px 8px 19px;
     width: auto;
 }
 
 .bck-box.bck-box-2:after {
-    background-image: url(images/icono_caja_02.png);
-    content: " ";
-    position: absolute;
-    left: 10%;
-    margin-top: -5px;
-    z-index: 100;
-    padding: 10px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
+display: none;
 }
 
 
