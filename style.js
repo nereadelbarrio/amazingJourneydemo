@@ -17,6 +17,15 @@
 				{ name: 'Título 02', element: 'h2', attributes: { 'class': 'bck-title bck-title-2'} },
 				{ name: 'Título 03', element: 'h2', attributes: { 'class': 'bck-title bck-title-3'} },
 				{ name: 'Título 04', element: 'h2', attributes: { 'class': 'bck-title bck-title-4'} },
+				{ name: 'Título 05', element: 'h2', attributes: { 'class': 'bck-title bck-title-5'} },
+				{ name: 'Título 06', element: 'h2', attributes: { 'class': 'bck-title bck-title-6'} },
+				{ name: 'Título 07', element: 'h2', attributes: { 'class': 'bck-title bck-title-7'} },
+				{ name: 'Título 08', element: 'h2', attributes: { 'class': 'bck-title bck-title-8'} },
+				{ name: 'Título 09', element: 'h2', attributes: { 'class': 'bck-title bck-title-9'} },
+				{ name: 'Título 10', element: 'h2', attributes: { 'class': 'bck-title bck-title-10'} },
+				{ name: 'Título 11', element: 'h2', attributes: { 'class': 'bck-title bck-title-11'} },
+				{ name: 'Título 12', element: 'h2', attributes: { 'class': 'bck-title bck-title-12'} },
+
 				
 				
 				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
@@ -25,20 +34,7 @@
 				{ name: 'Énfasis 04', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
 				{ name: 'Énfasis 05', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
 				{ name: 'Énfasis 06', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
-				{ name: 'Énfasis 07', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
-				{ name: 'Énfasis 08', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
-				{ name: 'Énfasis 09', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
-				{ name: 'Énfasis 10', element: 'span', attributes: { 'class': 'bck-enfasis-10'} },
-				{ name: 'Énfasis 11', element: 'span', attributes: { 'class': 'bck-enfasis-11'} },
-				{ name: 'Énfasis 12', element: 'span', attributes: { 'class': 'bck-enfasis-12'} },
-				{ name: 'Énfasis 13', element: 'span', attributes: { 'class': 'bck-enfasis-13'} },
-				{ name: 'Énfasis 14', element: 'span', attributes: { 'class': 'bck-enfasis-14'} },
-				{ name: 'Énfasis 15', element: 'span', attributes: { 'class': 'bck-enfasis-15'} },
-				{ name: 'Énfasis 16', element: 'span', attributes: { 'class': 'bck-enfasis-16'} },
-				{ name: 'Énfasis 17', element: 'span', attributes: { 'class': 'bck-enfasis-17'} },
-				{ name: 'Énfasis 18', element: 'span', attributes: { 'class': 'bck-enfasis-18'} },
-				{ name: 'Énfasis 19', element: 'span', attributes: { 'class': 'bck-enfasis-19'} },
-				{ name: 'Énfasis 20', element: 'span', attributes: { 'class': 'bck-enfasis-20'} },
+				
 		
 				{ name: 'Lista Desordenada 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
 				{ name: 'Lista Desordenada 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
