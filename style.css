@@ -1382,53 +1382,18 @@ padding: 7px 9px;
     margin-left: 6px;
 }
 
-#actividad .content .cke_contents .bck-ul-1 li,
-#actividad .content .cke_contents .bck-ul-1 li,
+
+
 #actividad .content .texto_curso .bck-ul-1 li,
-#actividad .popover-content .bck-ul-1 li,
-#actividad .content .workspace ul li .bck-ul-1 li {
-    padding-left: 40px;
-    position: relative;
-    list-style: none;
-    margin-bottom: 5px;
-    font-size: 2rem;
-    font-weight: 100;
-    margin-left: -2px;
-    color: inherit;
-}
-
-
-/*#actividad .content .texto_curso .bck-ul-1 li,
 #actividad .content .workspace ul li .bck-ul-1 li,
 #actividad .popover-background.shown .popover-content .bck-ul-1 li {
-    font-size: 2rem;
-    font-weight: 100;
-    margin-left: -2px
-}*/
-
-#actividad .content .cke_contents .bck-ul-1 li:before,
-#actividad .content .texto_curso ul.bck-ul-1 li:before,
-#actividad .popover-content ul.bck-ul-1 li:before,
-#actividad .content .workspace ul li ul.bck-ul-1 li:before {
-    color: #1d1d1b;
-    content: "";
-    height: 12px;
-    width: 12px;
-    background-color: #FAC9B6;
-    border-radius: 100%;
-    margin-top: 13px;
-    margin-left: -19px;
+    line-height: 1.8em!important;
+    margin-left: -16px;
 }
 
-#actividad .content .texto_curso .bck-ul-2 li,
-#actividad .content .workspace ul li .bck-ul-2 li,
-#actividad .popover-background.shown .popover-content .bck-ul-2 li {
-    line-height: 1.8em!important
-}
-
-#actividad .content .texto_curso .bck-ul-2 li:before,
-#actividad .content .workspace ul li .bck-ul-2 li:before,
-#actividad .popover-background.shown .popover-content .bck-ul-2 li:before {
+#actividad .content .texto_curso .bck-ul-1 li:before,
+#actividad .content .workspace ul li .bck-ul-1 li:before,
+#actividad .popover-background.shown .popover-content .bck-ul-1 li:before {
     content: "";
     height: 7px;
     width: 7px;
@@ -1527,8 +1492,6 @@ padding: 7px 9px;
     margin-left: 0
 }
 
-
-
 #actividad .content .cke_contents .bck-ol-1,
 #actividad .content .texto_curso .bck-ol-1,
 #actividad .content .workspace ul li .bck-ol-1,
@@ -1537,23 +1500,69 @@ padding: 7px 9px;
     counter-reset: bck-li-counter
 }
 
-#actividad .content .cke_contents .bck-ol-1 li,
-#actividad .content .texto_curso .bck-ol-1 li,
-#actividad .content .workspace ul li .bck-ol-1 li,
+#actividad .content .cke_contents .bck-ol-1 li, 
+#actividad .content .texto_curso .bck-ol-1 li, 
+#actividad .content .workspace ul li .bck-ol-1 li, 
 #actividad .popover-content .bck-ol-1 li {
     counter-increment: bck-li-counter;
     padding-left: 0;
     position: relative;
     z-index: 0;
-    margin-left: -16px;
+    font-weight: 600;
+    margin-left: -15px;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-family: 'Proxima Nova Rg';
+    line-height: 1.8em!important;
+}
+
+
+#actividad .content .cke_contents .bck-ol-1 li:before, 
+#actividad .content .texto_curso .bck-ol-1 li:before, 
+#actividad .content .workspace ul li .bck-ol-1 li:before, 
+#actividad .popover-content .bck-ol-1 li:before {
+    content: counter(bck-li-counter);
+    width: 32px;
+    height: 27px;
+    position: absolute;
+    color: #ec6f59;
+    background: none;
+    margin-left: -40px;
+    margin-right: 0;
+    text-align: right;
+    font-family: 'Proxima Nova Rg';
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: normal;
+    top: 3px;
+    left: auto;
+}
+
+#actividad .content .cke_contents .bck-ol-2,
+#actividad .content .texto_curso .bck-ol-2,
+#actividad .content .workspace ul li .bck-ol-2,
+#actividad .popover-content .bck-ol-2 {
+    list-style-type: none;
+    counter-reset: bck-li-counter
+}
+
+#actividad .content .cke_contents .bck-ol-2 li,
+#actividad .content .texto_curso .bck-ol-2 li,
+#actividad .content .workspace ul li .bck-ol-2 li,
+#actividad .popover-content .bck-ol-2 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    z-index: 0;
+    margin-left: 13px;
     margin-top: 10px;
     font-weight: 500;
 }
 
-#actividad .content .cke_contents ol.bck-ol-1 li:before, 
-#actividad .content .texto_curso ol.bck-ol-1 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-1 li:before, 
-#actividad .popover-content ol.bck-ol-1 li:before {
+#actividad .content .cke_contents ol.bck-ol-2 li:before, 
+#actividad .content .texto_curso ol.bck-ol-2 li:before, 
+#actividad .content .workspace ul li ol.bck-ol-2 li:before, 
+#actividad .popover-content ol.bck-ol-2 li:before {
     content: counter(bck-li-counter);
     width: 32px;
     height: 27px;
