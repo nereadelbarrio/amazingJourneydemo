@@ -667,44 +667,31 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 
 .bck-title-3 {
-    color: #006F41;
-    font-size: 2.5rem;
-    text-align: left;
-    font-family: 'ZineSlabDisOT-Medi';
-    padding-top: 10px;
-    font-weight: 400;
-}
-
-.bck-title-3:before {
-    content: "WRITING SKILL";
-    z-index: 100;
-    width: 18%;
-    padding: 10px 11px 10px 24px;
-    background-color: #007c39;
-    display: inline-block;
-    color: #fff;
-    -moz-border-radius: 20px 0 0 50px;
-    border-radius: 20px 0 0 50px;
-    margin-right: 6px;
-    vertical-align: sub;
+    color: #00909E;
+    text-shadow: -4px -3px 0px #dedbd4, 
+    1px 1px 0 #dedbd4, -1px -3px 0 #dedbd4, 
+    -4px 0px 0 #dedbd4, -3px 1px #dedbd4, 
+    2px -2px 0 #dedbd4, 2px 3px 0 #dedbd4, 
+    1px 3px 0 #dedbd4;
+    font-size: 40px;
+    width: fit-content;
+    font-weight: 700;
+    font-family: 'Proxima Nova Rg';
 }
 
 .bck-title-4 {
-    color: inherit;
-    height: 64px;
-    border-radius: 15px;
-    width: 70%;
-}
-
-.bck-title-4:before {
-    content: "";
-    background-image: url(images/icono_title_04.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 70px;
-    margin-top: -30px;
-    position: absolute;
-    left: 0px;
+    color: #00B4BE;
+    text-shadow: -4px -3px 0px #dedbd4, 
+    1px 1px 0 #dedbd4, 
+    -1px -3px 0 #dedbd4, 
+    -4px 0px 0 #dedbd4, 
+    -3px 1px #dedbd4, 
+    2px -2px 0 #dedbd4, 
+    2px 3px 0 #dedbd4, 5px 4px 4px #ccc;
+    font-size: 40px;
+    width: fit-content;
+    font-weight: 700;
+    font-family: 'Proxima Nova Rg';
 }
 
 .bck-title-5 {
