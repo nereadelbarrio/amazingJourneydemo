@@ -1078,10 +1078,11 @@ padding: 7px 9px;
 }
 
 .bck-enfasis-2 {
-    font-size: 2rem;
-    color: #2298D4;
-    font-weight: 500;
-    font-style: italic;
+    padding: 7px 6px;
+    background-color: #58C6CE;
+    border-radius: 20PX;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .bck-enfasis-3 {
