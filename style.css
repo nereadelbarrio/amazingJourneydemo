@@ -1696,7 +1696,7 @@ counter-increment: bck-li-counter;
     margin-left: -15px;
     margin-top: 10px;
     font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
+    font-family: 'Proxima Nova Rg';
     line-height: 1.8em!important;
 }
 
@@ -1704,21 +1704,23 @@ counter-increment: bck-li-counter;
 #actividad .content .texto_curso ol.bck-ol-4 li:before, 
 #actividad .content .workspace ul li ol.bck-ol-4 li:before, 
 #actividad .popover-content ol.bck-ol-4 li:before {
-        color: #78AA42;
-    content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
+content: counter(bck-li-counter);
+    width: 36px;
+    height: 35px;
     position: absolute;
-    background: none;
+    background-color: #ec6f59;
+    border-radius: 31px;
+    text-align: center;
+    color: #fff;
     margin-left: -40px;
     margin-right: 0;
-    text-align: right;
-    font-family: 'ZineSlabDisOT';
-    font-size: 2.3rem;
+    font-family: 'Proxima Nova Rg';
+    font-size: 23px;
     font-weight: 600;
     line-height: normal;
-    top: 4px;
-    left: auto;
+    padding: 4px 0px;
+    top: -1px;
+    left: -6px;
 }
 
 #actividad .content .cke_contents .bck-ol-5,
