@@ -1102,9 +1102,11 @@ padding: 7px 9px;
 }
 
 .bck-enfasis-5 {
-    border-radius: 12px;
-    padding: 7px 15px;
-    background-color: #0095DA;
+    padding: 7px 6px;
+    background-color: #FFD869;
+    border-radius: 20PX;
+    color: #F6874A;
+    text-transform: uppercase;
 }
 
 /**/.bck-box.bck-box-1
@@ -1426,7 +1428,7 @@ padding: 7px 9px;
     margin: 13px 0 0 -15px
 }
 
-
+/**/
 #actividad .content .cke_contents .bck-ul-3 li:before,
 #actividad .content .texto_curso ul.bck-ul-3 li:before,
 #actividad .popover-content ul.bck-ul-3 li:before,
@@ -1742,7 +1744,7 @@ content: counter(bck-li-counter);
     width: 32px;
     height: 27px;
     position: absolute;
-    color: ##f6874a;
+    color: #f6874a;
     background: none;
     margin-left: -40px;
     margin-right: 0;
@@ -1754,6 +1756,7 @@ content: counter(bck-li-counter);
     top: 3px;
     left: auto;
 }
+
 
 /**/
 
