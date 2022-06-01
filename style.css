@@ -1405,6 +1405,27 @@ padding: 7px 9px;
     margin: 13px 0 0 -15px
 }
 
+#actividad .content .texto_curso .bck-ul-2 li,
+#actividad .content .workspace ul li .bck-ul-2 li,
+#actividad .popover-background.shown .popover-content .bck-ul-2 li {
+    line-height: 1.8em!important;
+    margin-left: -16px;
+}
+
+#actividad .content .texto_curso .bck-ul-2 li:before,
+#actividad .content .workspace ul li .bck-ul-2 li:before,
+#actividad .popover-background.shown .popover-content .bck-ul-2 li:before {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: #E31A22;
+    position: absolute;
+    top: 2px;
+    border-radius: 100%;
+    left: auto;
+    margin: 13px 0 0 -15px
+}
+
 
 #actividad .content .cke_contents .bck-ul-3 li:before,
 #actividad .content .texto_curso ul.bck-ul-3 li:before,
