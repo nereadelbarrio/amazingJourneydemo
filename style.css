@@ -636,15 +636,15 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 .bck-title-1 {
     color: #EC6F59;
-    border: 2px solid #ec6f59 !important;
-    font-size: 2.4rem;
-    background: #ffffff;
+    text-shadow: -4px -3px 0px #dedbd4, 
+    1px 1px 0 #dedbd4, -1px -3px 0 #dedbd4, 
+    -4px 0px 0 #dedbd4, -3px 1px #dedbd4, 
+    2px -2px 0 #dedbd4, 2px 3px 0 #dedbd4, 
+    1px 3px 0 #dedbd4;
+    font-size: 40px;
     width: fit-content;
-    padding: 7PX 30PX 7px 24px;
-    border-radius: 30px 10px 37px 10px;
     font-weight: 700;
-    font-family: 'StradaOT-Semibd';
-    text-transform: uppercase;
+    font-family: 'Proxima Nova Rg';
 }
 
 
@@ -654,13 +654,16 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 
 .bck-title-2 {
-    color: #EC6F59;
-    font-size: 2.5rem;
-    text-align: left;
-    font-family: 'ZineSlabDisOT-Medi';
-    padding-top: 10px;
-    font-weight: 400;
-    margin-left: -25px;
+    color: #00B4BE;
+    text-shadow: -4px -3px 0px #dedbd4, 
+    1px 1px 0 #dedbd4, -1px -3px 0 #dedbd4, 
+    -4px 0px 0 #dedbd4, -3px 1px #dedbd4, 
+    2px -2px 0 #dedbd4, 2px 3px 0 #dedbd4, 
+    1px 3px 0 #dedbd4;
+    font-size: 40px;
+    width: fit-content;
+    font-weight: 700;
+    font-family: 'Proxima Nova Rg';
 }
 
 .bck-title-3 {
