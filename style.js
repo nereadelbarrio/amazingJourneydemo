@@ -1,46 +1,23 @@
 (function (blink) {
 	'use strict';
 
-	var amazingJourneydemoStyle = function () {
+	var amazingjourneydemoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	amazingJourneydemoStyle.prototype = {
+	amazingjourneydemoStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_amazingJourneydemo',
+		bodyClassName: 'content_type_clase_amazingjourneydemo',
 		ckEditorStyles: {
-			name: 'amazingJourneydemo',
+			name: 'amazingjourneydemo',
 			styles: [
 				{ name: 'Título 01', element: 'h2', attributes: { 'class': 'bck-title bck-title-1'} },
 				{ name: 'Título 02', element: 'h2', attributes: { 'class': 'bck-title bck-title-2'} },
 				{ name: 'Título 03', element: 'h2', attributes: { 'class': 'bck-title bck-title-3'} },
 				{ name: 'Título 04', element: 'h2', attributes: { 'class': 'bck-title bck-title-4'} },
-				{ name: 'Título 05', element: 'h2', attributes: { 'class': 'bck-title bck-title-5'} },
-				{ name: 'Título 06', element: 'h2', attributes: { 'class': 'bck-title bck-title-6'} },
-				{ name: 'Título 07', element: 'h2', attributes: { 'class': 'bck-title bck-title-7'} },
-				{ name: 'Título 08', element: 'h2', attributes: { 'class': 'bck-title bck-title-8'} },
-				{ name: 'Título 09', element: 'h2', attributes: { 'class': 'bck-title bck-title-9'} },
-				{ name: 'Título 10', element: 'h2', attributes: { 'class': 'bck-title bck-title-10'} },
-				{ name: 'Título 11', element: 'h2', attributes: { 'class': 'bck-title bck-title-11'} },
-				{ name: 'Título 12', element: 'h2', attributes: { 'class': 'bck-title bck-title-12'} },
-				{ name: 'Título 13', element: 'h2', attributes: { 'class': 'bck-title bck-title-13'} },
-				{ name: 'Título 14', element: 'h2', attributes: { 'class': 'bck-title bck-title-14'} },
-				{ name: 'Título 15', element: 'h2', attributes: { 'class': 'bck-title bck-title-15'} },
-				{ name: 'Título 16', element: 'h2', attributes: { 'class': 'bck-title bck-title-16'} },
-				{ name: 'Título 17', element: 'h2', attributes: { 'class': 'bck-title bck-title-17'} },
-				{ name: 'Título 18', element: 'h2', attributes: { 'class': 'bck-title bck-title-18'} },
-				{ name: 'Título 19', element: 'h2', attributes: { 'class': 'bck-title bck-title-19'} },
-				{ name: 'Título 20', element: 'h2', attributes: { 'class': 'bck-title bck-title-20'} },
-				{ name: 'Título 21', element: 'h2', attributes: { 'class': 'bck-title bck-title-21'} },
-				{ name: 'Título 22', element: 'h2', attributes: { 'class': 'bck-title bck-title-22'} },
-				{ name: 'Título 23', element: 'h2', attributes: { 'class': 'bck-title bck-title-23'} },
-				{ name: 'Título 24', element: 'h2', attributes: { 'class': 'bck-title bck-title-24'} },
-				{ name: 'Título 25', element: 'h2', attributes: { 'class': 'bck-title bck-title-25'} },
-				{ name: 'Título 26', element: 'h2', attributes: { 'class': 'bck-title bck-title-26'} },
-				{ name: 'Título 27', element: 'h2', attributes: { 'class': 'bck-title bck-title-27'} },
-				{ name: 'Título 28', element: 'h2', attributes: { 'class': 'bck-title bck-title-28'} },
+				
 				
 				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis 02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
@@ -292,7 +269,7 @@
 
 		formatCarouselindicators: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'amazingJourneydemo-navbar'),
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'amazingjourneydemo-navbar'),
 				$navbarBottom = $('.navbar-bottom'),
 				firstSlide = eval('t0_slide');
 			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
@@ -491,7 +468,7 @@
 
 		animateNavbarOnScroll: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'amazingJourneydemo-navbar');
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'amazingjourneydemo-navbar');
 			if (!blink.isApp) return;
 			var $navbar = $('.'+navbar);
 			var lastScrollTop = 0;
@@ -577,9 +554,9 @@
  		}
 	};
 
-	amazingJourneydemoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), amazingJourneydemoStyle.prototype);
+	amazingjourneydemoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), amazingjourneydemoStyle.prototype);
 
-	blink.theme.styles['amazingJourneydemo'] = amazingJourneydemoStyle;
+	blink.theme.styles['amazingjourneydemo'] = amazingjourneydemoStyle;
 
 })( blink );
 
