@@ -1546,7 +1546,7 @@ padding: 7px 9px;
     margin-left: -15px;
     margin-top: 10px;
     font-size: 2rem;
-    font-family: 'StradaOT-Semibd';
+    font-family: 'Proxima Nova Rg';
     line-height: 1.8em!important;
 }
 
@@ -1564,11 +1564,11 @@ padding: 7px 9px;
     margin-left: -40px;
     margin-right: 0;
     text-align: right;
-    font-family: 'ZineSlabDisOT';
+    font-family: 'Proxima Nova Rg';
     font-size: 2.3rem;
     font-weight: 600;
     line-height: normal;
-    top: 4px;
+    top: 3px;
     left: auto;
 }
 
@@ -1588,7 +1588,7 @@ padding: 7px 9px;
     padding-left: 0;
     position: relative;
     z-index: 0;
-    margin-left: 0;
+    margin-left: 13px;
     margin-top: 10px;
     font-weight: 500;
 }
@@ -1597,17 +1597,21 @@ padding: 7px 9px;
 #actividad .content .texto_curso ol.bck-ol-2 li:before, 
 #actividad .content .workspace ul li ol.bck-ol-2 li:before, 
 #actividad .popover-content ol.bck-ol-2 li:before {
-    content: counter(bck-li-counter) " ";
-        position: absolute;
-        font-size: 2rem;
-        font-weight: 600;
-        color: #414141;
-        background: none;
-        margin-left: -20px;
-        margin-right: 0;
-        text-align: right;
-        font-family: 'ZineSlabDisOT';
-        margin-top: 2px;
+    content: counter(bck-li-counter);
+    width: 32px;
+    height: 27px;
+    position: absolute;
+    color: #414141;
+    background: none;
+    margin-left: -48px;
+    margin-right: 0;
+    text-align: right;
+    font-family: 'Proxima Nova Rg';
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: normal;
+    top: 5px;
+    left: auto;
 }
 
 
