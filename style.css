@@ -216,11 +216,15 @@ p {
 
 #book-index #indice .units ul li.active a,
 #book-index .col-main {
-   background: #007c39;
+   background: #F15A55;
 }
 
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     background: inherit;
+}
+
+#book-index #indice .units ul li {
+    border: 1px solid #fff;
 }
 
 #indice .unit-content {
@@ -255,9 +259,19 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 #indice .units ul li.hover:not(.disabled),
 #indice .units ul li:hover:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
-    background: #f15a55;
+    background: #f15a55 !important;
     border-radius: 10px;
     border: 3px solid #dee4d9;
+}
+
+
+#book-index #indice .unit-content .content .title-buttons .btn {
+    background: 0;
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
 }
 
 #book-index #indice .unit-content a,
@@ -269,7 +283,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
     color: #fff
 }
 
-#indice .actividades a:active,#indice .actividades a:focus,
+#indice .actividades a:active,
+#indice .actividades a:focus,
 #indice .actividades a:hover {
     color: #007c39;
 }
