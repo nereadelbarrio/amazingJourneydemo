@@ -1512,6 +1512,7 @@ border-radius: 40px;
 
 .bck-box.bck-box-1 .bck-content {
     padding-left: 0;
+    text-align: left;
 }
 
 .bck-box.bck-box-1>.bck-title {
@@ -1552,6 +1553,7 @@ background-color: #E1E0E8;
     padding: 27px 18px 8px 19px;
     width: auto;
     box-shadow: 5px 6px 0px 0px #d3d2d2;
+    text-align: left;
 }
 
 .bck-box.bck-box-2:after {
@@ -1585,6 +1587,7 @@ background-color: #fff;
     border-radius: 0 0 20px 20px;
     padding: 25px 18px 8px 19px;
     width: auto;
+    text-align: left;
 }
 
 .bck-box.bck-box-3:before {
