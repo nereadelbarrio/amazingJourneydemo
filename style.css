@@ -593,12 +593,13 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 #actividad .player.video,
 #help-panel-content .player,
 #remote-alert-modal-rich .player {
-    height: 30px!important;
-    width: 28px;
+    height: 23px!important;
+    width: 25px;
     display: inline-block;
     background-repeat: no-repeat;
     border-radius: 0;
     margin-right: 5px;
+    margin-top: -10px;
     padding: 0
 }
 
@@ -2249,7 +2250,7 @@ td,th {
         -moz-border-radius: 100%;
         border-radius: 100%;
         margin: 0 5px;
-        vertical-align: sub
+        vertical-align: middle;
     }
 
     #actividad .carousel-inner .item-container {
