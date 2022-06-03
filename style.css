@@ -872,6 +872,22 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-family: 'Proxima Nova Rg';
 }
 
+.bck-title-13 {
+    color: #EC6F59;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: ;
+    font-family: 'Black Coffee';
+}
+
+.bck-title-14 {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: ;
+    font-family: 'Black Coffee';
+}
+
 /**/
 
 
