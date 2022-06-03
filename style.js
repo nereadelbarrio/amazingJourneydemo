@@ -25,6 +25,8 @@
 				{ name: 'Título 10', element: 'h2', attributes: { 'class': 'bck-title bck-title-10'} },
 				{ name: 'Título 11', element: 'h2', attributes: { 'class': 'bck-title bck-title-11'} },
 				{ name: 'Título 12', element: 'h2', attributes: { 'class': 'bck-title bck-title-12'} },
+				{ name: 'Título 13', element: 'h2', attributes: { 'class': 'bck-title bck-title-13'} },
+				{ name: 'Título 14', element: 'h2', attributes: { 'class': 'bck-title bck-title-14'} },
 
 				
 				
