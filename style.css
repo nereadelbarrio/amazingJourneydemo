@@ -582,18 +582,17 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 }
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border-color: rgb(0 124 57 / 42%);
+    border-color: rgb(64 64 64 / 42%);
     padding: 6px
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-title {
     display: table-cell;
     vertical-align: middle;
-    font-family: 'StradaOT-Semibd';
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 3px solid rgb(0 124 57 / 42%);
+    border: 3px solid rgb(64 64 64 / 42%);
     padding-top: 15px
 }
 
