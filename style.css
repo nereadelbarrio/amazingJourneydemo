@@ -1942,6 +1942,7 @@ td,th {
 #actividad .content .review .attemps span {
     background-color: #F15A55;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #c2c2c2;
 
 }
 
