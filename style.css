@@ -936,13 +936,14 @@ padding: 0px 14px 0px 14px;
     text-transform: uppercase;
 }
 
-/**/.bck-box.bck-box-1
+
 .bck-enfasis-6 {
-    border-radius: 12px;
-    padding: 7px 15px;
-    background-color: #006F45;
-    color: #fff;
+    padding: 7px 6px;
+    background-color: #FEC24E;
+    border-radius: 10PX;
 }
+
+/**/
 
 .bck-enfasis-7 {
     border-radius: 12px;
