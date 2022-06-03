@@ -113,6 +113,43 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Pluto';
+    src: url('fonts/PlutoLight.eot');
+    src: url('fonts/PlutoLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PlutoLight.woff2') format('woff2'),
+        url('fonts/PlutoLight.woff') format('woff'),
+        url('fonts/PlutoLight.ttf') format('truetype'),
+        url('fonts/PlutoLight.svg#PlutoLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Santillana2017Bold';
+    src: url('fonts/Santillana2017Bold-Bold.eot');
+    src: url('fonts/Santillana2017Bold-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Santillana2017Bold-Bold.woff2') format('woff2'),
+        url('fonts/Santillana2017Bold-Bold.woff') format('woff'),
+        url('fonts/Santillana2017Bold-Bold.ttf') format('truetype'),
+        url('fonts/Santillana2017Bold-Bold.svg#Santillana2017Bold-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Black Coffee';
+    src: url('fonts/BlackCoffeeRegular-Bold.eot');
+    src: url('fonts/BlackCoffeeRegular-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BlackCoffeeRegular-Bold.woff2') format('woff2'),
+        url('fonts/BlackCoffeeRegular-Bold.woff') format('woff'),
+        url('fonts/BlackCoffeeRegular-Bold.ttf') format('truetype'),
+        url('fonts/BlackCoffeeRegular-Bold.svg#BlackCoffeeRegular-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 
 /*General */
   body {
@@ -845,7 +882,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }*/
 
 .bck-enfasis-1 {
-padding: 7px 9px;
+padding: 0px 14px 0px 14px;
     background-color: #C6B9D7;
     border-radius: 20PX;
     FONT-SIZE: 14px;
