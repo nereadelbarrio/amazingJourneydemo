@@ -966,6 +966,11 @@ padding: 0px 14px 0px 14px;
     font-weight: 600;
 }
 
+.bck-enfasis-9 {
+    color: #F14D47;
+    font-weight: 600;
+}
+
 .texto_curso li {
     line-height: 1.8em!important
 }
