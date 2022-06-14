@@ -1666,8 +1666,8 @@ position: absolute;
     background-size: contain;
     background-position: 50%;
     display: inline-block;
-    vertical-align: sub;
-    height: 22px;
+    vertical-align: middle;
+    height: 33px;
     width: 33px;
     margin-right: 5px
 }
@@ -1683,7 +1683,9 @@ position: absolute;
     background-size: contain;
     background-position: 50%;
     display: inline-block;
-    vertical-align: sub;
+    vertical-align: middle;
+    height: 33px;
+    width: 48px;
 }
 
 .item-container .icon-bus:before {
@@ -1700,7 +1702,7 @@ position: absolute;
     background-size: contain;
     background-position: 50%;
     display: inline-block;
-    vertical-align: sub;
+    vertical-align: middle;
 }
 
 .item-container .icon-corazon:before {
@@ -1715,7 +1717,7 @@ position: absolute;
     background-size: contain;
     background-position: 50%;
     display: inline-block;
-    vertical-align: sub;
+    vertical-align: middle;
 }
 
 .item-container .icon-libro:before {
@@ -1728,7 +1730,7 @@ position: absolute;
     background-size: contain;
     background-position: 50%;
     display: inline-block;
-    vertical-align: sub;
+    vertical-align: middle;
     height: 34px;
     width: 34px;
 }
@@ -1743,7 +1745,7 @@ position: absolute;
     background-size: contain;
     background-position: 50%;
     display: inline-block;
-    vertical-align: sub;
+    vertical-align: middle;
     height: 34px;
     width: 48px;
 }
@@ -1758,7 +1760,7 @@ position: absolute;
     background-size: contain;
     background-position: 50%;
     display: inline-block;
-    vertical-align: sub;
+    vertical-align: middle;
         height: 44px;
     width: 38px;
 }
@@ -2089,7 +2091,8 @@ td,th {
     border-color: #007c39;
 }
 
-/*****************coursetags************************/
+/*****************tags************************/
+
 
 
 /*querys*/
@@ -2318,7 +2321,7 @@ td,th {
     }*/
 }
 
-@media only screen and (max-width: 1024px) and (min-width:769px) {
+/*@media only screen and (max-width: 1024px) and (min-width:769px) {
     #actividad .player.audio,
     #actividad .player.video,
     #help-panel-content .player,
@@ -2333,7 +2336,7 @@ td,th {
         border-radius: 100%;
         margin: 0 5px;
         vertical-align: sub
-    }
+    }*/
 
     #actividad .carousel-inner .item-container {
         -webkit-box-shadow: transparent 0 3px 9px;
