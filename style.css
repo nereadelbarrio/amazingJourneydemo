@@ -1672,7 +1672,7 @@ position: absolute;
     z-index: 1000;
 }
 
-/**/
+/*
 .bck-box.bck-box-5 {
     margin-top: 15px;
     border: none;
@@ -1689,7 +1689,7 @@ position: absolute;
     padding: 0 10px;
     transform: rotate(4deg);
     font-family: 'Black Coffee';
-    /* width: 97%; */
+    /* width: 97%; 
     position: relative;
     margin-left: -30px;
     box-shadow: -3px 0px 2px 0px #ececec;
@@ -1713,7 +1713,45 @@ position: absolute;
 
 
 
-/**/
+*/
+
+.bck-box.bck-box-5 {
+    padding: 8px 15px 8px 8px;
+    background-color: #fff;
+    border: 2px solid #9C9C9C;
+    border-radius: 0 0 10px 10px;
+    -moz-box-shadow: 2px 4px 3px #00000024;
+    -webkit-box-shadow: 2px 4px 3px #00000024;
+    box-shadow: 2px 4px 3px #00000024;
+  }
+.bck-box.bck-box-5>.bck-title {
+    color: #E61931;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    background-color: #034F80;
+    color: #fff;
+    padding: 10px 15px 10px 83px;
+    width: 102.8%;
+    font-size: 2.5rem;
+    border-radius: 6px 6px 0 0;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    left: -10px;
+    top: -14px;
+}
+
+
+  .bck-box.bck-box-5>.bck-title p {
+    font-weight: bold;
+  }
+
+  .bck-box.bck-box-5>.bck-content {
+    background: #fff;
+    padding: 0px;
+    border-radius: 10px;
+    text-align: left;
+}
 
 #actividad .content .iniciounidad .header .title h3 {
     margin-top: 150px
