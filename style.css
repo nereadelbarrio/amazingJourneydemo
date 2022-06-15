@@ -1674,11 +1674,11 @@ position: absolute;
 /**/
 
 .bck-box.bck-box-5 {
-    padding: 15px 20px;
     background-color: #2C3A67;
     border-radius: 0px;
     transform: rotate(-2deg);
     box-shadow: 3px 3px 5px #d3cfcf;
+    margin-bottom: 40px;
   }
 
 .bck-box.bck-box-5>.bck-title {
