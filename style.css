@@ -921,6 +921,7 @@ padding: 0px 14px 0px 14px;
     background-color: #58C6CE;
     border-radius: 20PX;
     color: #fff;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -929,6 +930,7 @@ padding: 0px 14px 0px 14px;
     background-color: #F14D47;
     border-radius: 20PX;
     color: #fff;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
