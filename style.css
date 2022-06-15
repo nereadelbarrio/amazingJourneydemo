@@ -1628,6 +1628,53 @@ position: absolute;
 }
 
 /**/
+.bck-box.bck-box-4 {
+margin-top: 15px;
+    border: none;
+    background: #a1dbe3;
+}
+
+.bck-box.bck-box-4>.bck-title {
+color: #fff;
+    background-color: #F6874A;
+    border-radius: 10px 10px 0 0;
+    font-size: inherit;
+    padding-left: 87px;
+    padding-top: 4px;
+    font-family: 'Black Coffee';
+}
+
+.bck-box.bck-box-4>.bck-title p {
+    font-size: 30px;
+}
+
+.bck-box.bck-box-3>.bck-content {
+background-color: #A1DBE3;
+    padding: 15px;
+    width: auto;
+    text-align: left;
+    padding-left: 95px;
+}
+
+.bck-box.bck-box-4:before {
+position: absolute;
+    width: 121px;
+    height: 98px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -14px;
+    left: -24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/icono_caja04.PNG);
+    content: "";
+    z-index: 1000;
+}
+
+
+
+
+/**/
 
 #actividad .content .iniciounidad .header .title h3 {
     margin-top: 150px
