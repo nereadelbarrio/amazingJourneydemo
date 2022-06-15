@@ -1674,10 +1674,12 @@ position: absolute;
 
 /**/
 .bck-box.bck-box-5 {
-margin-top: 15px;
+    margin-top: 15px;
     border: none;
-    background: #a1dbe3;
+    background: #2C3A67;
     padding-left: 95px;
+    transform: rotate(-4deg);
+    margin-bottom: 40px;
 }
 
 .bck-box.bck-box-5>.bck-title {
@@ -1685,9 +1687,11 @@ margin-top: 15px;
     background-color: #F47A76;
     border: none;
     padding: 0 10px;
-    transform: rotate(2deg);
+    transform: rotate(4deg);
     font-family: 'Black Coffee';
-    width: 97%;
+    /* width: 97%; */
+    position: relative;
+    margin-left: -30px;
     box-shadow: -3px 0px 2px 0px #ececec;
 }
 
@@ -1699,11 +1703,11 @@ margin-top: 15px;
     padding-left: 0;
     text-align: left;
     background-color: #fff;
-    transform: rotate(2deg);
-    padding: 0 10px;
+    transform: rotate(4deg);
+    padding: 7px 14px;
     position: relative;
-    margin-left: -7px;
-    width: 97%;
+    margin-left: -40px;
+    width: 100%;
     box-shadow: -3px 0px 2px 0px #ececec;
 }
 
