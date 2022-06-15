@@ -1632,6 +1632,7 @@ position: absolute;
 margin-top: 15px;
     border: none;
     background: #a1dbe3;
+    padding-left: 95px;
 }
 
 .bck-box.bck-box-4>.bck-title {
@@ -1648,7 +1649,7 @@ color: #fff;
     font-size: 30px;
 }
 
-.bck-box.bck-box-3>.bck-content {
+.bck-box.bck-box-4>.bck-content {
 background-color: #A1DBE3;
     padding: 15px;
     width: auto;
