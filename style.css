@@ -1709,6 +1709,93 @@ padding-left: 14px;
     top: -1px;
 }
 
+
+/**/
+.bck-box.bck-box-6 {
+    margin-top: 15px;
+    border: 3px solid #175382;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.bck-box.bck-box-6:before {
+    position: absolute;
+    width: 121px;
+    height: 98px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -52px;
+    left: -24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/icono_caja06.png);
+    content: "";
+    z-index: 1000;
+}
+
+.bck-box.bck-box-6>.bck-title {
+    color: #fff;
+    background-color: #F7943B;
+    border-radius: 35px;
+    font-size: inherit;
+    padding-left: 87px;
+    padding-right: 20px;
+    width: fit-content;
+    padding-top: 4px;
+    margin-top: -30px;
+}
+
+.bck-box.bck-box-6>.bck-content {
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    padding: 25px 18px 8px 50px;
+    width: auto;
+    text-align: left;
+}
+
+/**/
+.bck-box.bck-box-7{
+    margin-top: 15px;
+    border: 3px solid #175382;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.bck-box.bck-box-7:before {
+    position: absolute;
+    width: 121px;
+    height: 98px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -52px;
+    left: -24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/icono_caja03.png);
+    content: "";
+    z-index: 1000;
+}
+
+.bck-box.bck-box-7>.bck-title {
+    color: #fff;
+    background-color: #F7943B;
+    border-radius: 35px;
+    font-size: inherit;
+    padding-left: 87px;
+    padding-right: 20px;
+    width: fit-content;
+    padding-top: 4px;
+    margin-top: -30px;
+}
+
+.bck-box.bck-box-7>.bck-content {
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    padding: 25px 18px 8px 50px;
+    width: auto;
+    text-align: left;
+}
+
 #actividad .content .iniciounidad .header .title h3 {
     margin-top: 150px
 }
