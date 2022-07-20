@@ -1285,10 +1285,10 @@ padding: 0px 14px 0px 14px;
     margin-right: 0;
     text-align: right;
     font-family: 'Proxima Nova Rg';
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     font-weight: 600;
     line-height: normal;
-    top: 5px;
+    top: 0px;
     left: auto;
 }
 
@@ -1303,10 +1303,10 @@ padding: 0px 14px 0px 14px;
     margin-right: 0;
     text-align: right;
     font-family: 'Proxima Nova Rg';
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     font-weight: 600;
     line-height: normal;
-    top: -3px;
+    top: 0px;
     left: auto; 
 }
 
@@ -1511,6 +1511,8 @@ content: counter(bck-li-counter,lower-alpha) "";
     left: -6px;
 }
 
+
+
 #actividad .content .cke_contents .bck-ol-7,
 #actividad .content .texto_curso .bck-ol-7,
 #actividad .content .workspace ul li .bck-ol-7,
@@ -1523,53 +1525,6 @@ content: counter(bck-li-counter,lower-alpha) "";
 #actividad .content .texto_curso .bck-ol-7 li,
 #actividad .content .workspace ul li .bck-ol-7 li,
 #actividad .popover-content .bck-ol-7 li {
-counter-increment: bck-li-counter;
-    padding-left: 0;
-    position: relative;
-    z-index: 0;
-    font-weight: 600;
-    margin-left: -15px;
-    margin-top: 10px;
-    font-size: 2rem;
-    font-family: 'Proxima Nova Rg';
-    line-height: 1.8em!important;
-}
-
-#actividad .content .cke_contents ol.bck-ol-7 li:before, 
-#actividad .content .texto_curso ol.bck-ol-7 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-7 li:before, 
-#actividad .popover-content ol.bck-ol-7 li:before {
-content: counter(bck-li-counter, lower-alpha)'';
-    width: 36px;
-    height: 35px;
-    position: absolute;
-    background-color: #F26A5F;
-    border-radius: 31px;
-    text-align: center;
-    color: #fff;
-    margin-left: -40px;
-    margin-right: 0;
-    font-family: 'Proxima Nova Rg';
-    font-size: 23px;
-    font-weight: 600;
-    line-height: normal;
-    padding: 4px 0px;
-    top: -1px;
-    left: -6px;
-}
-
-#actividad .content .cke_contents .bck-ol-8,
-#actividad .content .texto_curso .bck-ol-8,
-#actividad .content .workspace ul li .bck-ol-8,
-#actividad .popover-content .bck-ol-8 {
-    list-style-type: none;
-    counter-reset: bck-li-counter
-}
-
-#actividad .content .cke_contents .bck-ol-8 li,
-#actividad .content .texto_curso .bck-ol-8 li,
-#actividad .content .workspace ul li .bck-ol-8 li,
-#actividad .popover-content .bck-ol-8 li {
     counter-increment: bck-li-counter;
     padding-left: 0;
     position: relative;
@@ -1579,9 +1534,9 @@ content: counter(bck-li-counter, lower-alpha)'';
     font-weight: 500;
 }
 
-#actividad .content .cke_contents ol.bck-ol-8 li:before, 
-#actividad .content .texto_curso ol.bck-ol-8 li:before,  
-#actividad .popover-content ol.bck-ol-8 li:before {
+#actividad .content .cke_contents ol.bck-ol-7 li:before, 
+#actividad .content .texto_curso ol.bck-ol-7 li:before,  
+#actividad .popover-content ol.bck-ol-7 li:before {
     content: counter(bck-li-counter,lower-alpha) "";
     width: 32px;
     height: 27px;
@@ -1599,8 +1554,8 @@ content: counter(bck-li-counter, lower-alpha)'';
     left: auto;
 }
 
-#actividad .content .workspace ul li ol.bck-ol-8 li:before {
-       content: counter(bck-li-counter);
+#actividad .content .workspace ul li ol.bck-ol-7 li:before {
+       content: counter(bck-li-counter,lower-alpha) "";
     width: 32px;
     height: 27px;
     position: absolute;
