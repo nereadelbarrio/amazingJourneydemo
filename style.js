@@ -1550,7 +1550,7 @@ content: counter(bck-li-counter,lower-alpha) "";
     font-size: 2.1rem;
     font-weight: 600;
     line-height: normal;
-    top: 5px;
+    top: 2px;
     left: auto;
 }
 
@@ -1568,7 +1568,7 @@ content: counter(bck-li-counter,lower-alpha) "";
     font-size: 2.1rem;
     font-weight: 600;
     line-height: normal;
-    top: -3px;
+    top: 2px;
     left: auto; 
 }
 
