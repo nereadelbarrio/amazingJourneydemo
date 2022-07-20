@@ -947,11 +947,12 @@ padding: 0px 14px 0px 14px;
 }
 
 .bck-enfasis-5 {
-    padding: 7px 6px;
+    padding: 7px 14px;
     background-color: #FFD869;
     border-radius: 20PX;
     color: #F6874A;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 
