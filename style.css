@@ -1273,8 +1273,7 @@ padding: 0px 14px 0px 14px;
 }
 
 #actividad .content .cke_contents ol.bck-ol-2 li:before, 
-#actividad .content .texto_curso ol.bck-ol-2 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-2 li:before, 
+#actividad .content .texto_curso ol.bck-ol-2 li:before,  
 #actividad .popover-content ol.bck-ol-2 li:before {
     content: counter(bck-li-counter);
     width: 32px;
@@ -1289,8 +1288,26 @@ padding: 0px 14px 0px 14px;
     font-size: 2.1rem;
     font-weight: 600;
     line-height: normal;
-    top: 5px;
+    top: -3px;
     left: auto;
+}
+
+#actividad .content .workspace ul li ol.bck-ol-2 li:before {
+       content: counter(bck-li-counter);
+    width: 32px;
+    height: 27px;
+    position: absolute;
+    color: #414141;
+    background: none;
+    margin-left: -48px;
+    margin-right: 0;
+    text-align: right;
+    font-family: 'Proxima Nova Rg';
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: normal;
+    top: -3px;
+    left: auto; 
 }
 
 
